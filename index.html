@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <h2>ステータス</h2>
+    <p>Lv. 
+        <span id="LevelCount">1</span>
+    </p>
+<p id="counter">0</p>
+<button id="countup">+</button>
+<button id="countdown">−</button>
+
+<svg width="210"height="50">
+    <rect width="200" height="30" x="5" y="5" fill="none" stroke="black" stroke-width="2"></rect>
+    <rect id="meter" width="0" height="30" x="5" y="5" fill="blue"></rect>
+  </svg>
+<script src="js/main.js"></script>
+</body>
+</html>
